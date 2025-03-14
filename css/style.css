@@ -54,6 +54,7 @@ section{
   aspect-ratio: 1/1;
   background: white;
   border-radius: 50%;
+  z-index: 1;
 }
 #minute::after {
   position: absolute;
@@ -84,7 +85,7 @@ section{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 1.5rem;
+  height: 1.8rem;
   aspect-ratio: 1/1;
   background-color: lime;
   border-radius: 50%;
